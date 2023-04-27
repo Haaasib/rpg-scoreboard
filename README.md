@@ -5,3 +5,4 @@ Advanced scoreboard for qbcore
 ```
 * Just Delete The qb-scoreboard and download the script and paste it on your resource  folder 
 ```
+# Discord Server :``` https://discord.gg/kkD6bayCrz ```
