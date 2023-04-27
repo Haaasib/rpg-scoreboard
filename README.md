@@ -4,6 +4,6 @@ Advanced scoreboard for qbcore
 ![](https://github.com/Haaasib/img/blob/main/scoreboard.png)
 # Installation
 ```
-* Just Delete The qb-scoreboard and download the script and paste it on your resource  folder 
+Just Delete The qb-scoreboard and download the script and paste it on your resource  folder 
 ```
 * Discord Server :``` https://discord.gg/kkD6bayCrz ```
