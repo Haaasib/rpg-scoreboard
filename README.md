@@ -1,4 +1,4 @@
-#rpg-scoreboard a better version of qb-scoreboard
+# rpg-scoreboard a better version of qb-scoreboard
 Advanced scoreboard for qbcore 
 # screenshorts :
 # Installation
