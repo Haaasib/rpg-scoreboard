@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal:700&display=swap&subset=arabic" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>RPG SCOREBOARD</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="scoreboard-block">
+                <div class="scoreboard-header">
+                    <img src="rpg.png" alt="sb-logo" class="sb-logo">
+                </div>
+
+                <div class="scoreboard-info">
+                    <div class="scoreboard-info-header">
+                        <div id="info-tab-label"><p>ROBBERY</p></div>
+                        <div id="status-tab-label"><p>STATUS</p></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="storerob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🛒 | STORE ROBBERY:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="houserob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🏠 | HOUSE ROBBERY:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="fleecarob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🏦 | FLEECA ROBBERY:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="poletorob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🏦 | POLETO ROBBERY:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="jewellery" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>💎 | VENGLICO HEIST:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="casinorob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🎰 | CASINO HEIST:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="subrob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🛳️ | SUBMARINE HEIST:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="atmrob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🏧 | ATM ROBBERY:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+					<div class="scoreboard-info-beam" data-type="phonerob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>📱 | PHONE ROBBERY:</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+				</div>
+				
+				<div class="scoreboard-info1">
+                    <div class="scoreboard-info-header">
+					<div id="info-tab-label"><p>ROBBERY</p></div>
+                    <div id="status-tab-label"><p>STATUS</p></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="humanlabrob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🌐 | CIA HEIST:</p></div>
+                        <div class="info-beam-status1"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="ciarob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>💾 | HUMANLABS HEIST:</p></div>
+                        <div class="info-beam-status1"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="pacific" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>⭐ | PACIFIC HEIST:</p></div>
+                        <div class="info-beam-status1"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="policerob" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>👮 | POLICE KIDNAP:</p></div>
+                        <div class="info-beam-status1"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="kidnap" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🙋‍ | CIVILIAN KIDNAP:</p></div>
+                        <div class="info-beam-status1"></div>
+                    </div>
+					<div class="scoreboard-info-beam" data-type="policeonline" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🚨 | POLICE AVAILABLE:</p></div>
+                        <div class="info-beam-status1"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="soon" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🔜 | COMING SOON!:</p></div>
+                        <div class="info-beam-status1"></div>
+                    </div>
+					<div class="scoreboard-info-beam" data-type="soon" style="background: rgba(0, 162, 255, 0.733);">
+                        <div class="info-beam-title"><p>🔜 | COMING SOON!:</p></div>
+                        <div class="info-beam-status1"></div>
+                    </div>
+					<div class="scoreboard-info-beam" style="background:  rgba(255, 255, 255, 0.39);">
+                        <div class="info-beam-title"><p>👦 | TOTAL PLAYERS:</p></div>
+                        <div class="info-beam-status1" id="total-players"></div>
+						</div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
